@@ -23,7 +23,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -o jeevad_v17_android_project_ui_fix_logo_channel.zip
+          unzip -o jeevad_v17_android_project_FINAL.zip
           ls -la jeevad_android_v17
 
       - name: Set up Gradle 8.11.1
