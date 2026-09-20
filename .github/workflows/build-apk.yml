@@ -23,7 +23,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -o jeevad_v17_android_project_fixes.zip
+          unzip -o jeevad_v17_android_project_logo_fixes.zip
           ls -la jeevad_android_v17
 
       - name: Set up Gradle 8.11.1
@@ -39,4 +39,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Jeevad-V17-APK
-          path: jeevad_android_v17/app/build/outputs/apk/debug/app-debug.apk
+          path: jeevad_android_v17/app/build/outputs/apk/Jeewad/voters-Jeewad.apk
