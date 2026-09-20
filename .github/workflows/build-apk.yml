@@ -39,4 +39,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Jeevad-V17-APK
-          path: jeevad_android_v17/app/build/outputs/apk/Jeewad/voters-Jeewad.apk
+          path: jeevad_android_v17/app/build/outputs/apk/debug/apk-debug.apk
